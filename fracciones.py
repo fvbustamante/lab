@@ -2,7 +2,7 @@
 #Given an array of integers, calculate the fractions of its elements that are positive, negative, and are zeros. Print the decimal value of each fraction on a new line.
 parametro =[-4,3,-9,0,4,1]
 
-def frac(arr):
+def plusMinus(arr):
     positivos=0
     negativos=0
     ceros=0
@@ -19,4 +19,4 @@ def frac(arr):
     print(str(round(a,6))+"\n"+str(round(b,6))+"\n"+str(round(c,6)))
 
 
-frac(parametro)
+plusMinus(parametro)
