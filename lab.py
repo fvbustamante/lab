@@ -1,5 +1,5 @@
 #%%
-parametro=[[1,2,3],[4,5,6],[7,8,9]]
+parametro=[[11,2,4],[4,5,6],[10,8,-12]]
 
 def diagonal(arr):
     k=0
@@ -9,11 +9,7 @@ def diagonal(arr):
     largo= len(arr)
     while k<largo:
         abajo=abajo+arr[k][k]
-        arriba=arriba+arr[largo-i-1][largo-i-1]
+        arriba=arriba+arr[k][largo-i-1]
         i=i+1
         k=k+1    
     return abs(abajo-arriba)
-
-
-
-                
