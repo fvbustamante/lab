@@ -15,3 +15,4 @@ def diagonal(arr):
         i=i+1
         k=k+1    
     return abs(abajo-arriba)
+
