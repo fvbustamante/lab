@@ -16,7 +16,7 @@ def frac(arr):
     a=positivos/len(arr)
     b=negativos/len(arr)
     c=ceros/len(arr)
-    print(str(a)+"\n"+str(b)+"\n"+str(c))
+    print(str(round(a,6))+"\n"+str(round(b,6))+"\n"+str(round(c,6)))
 
 
 frac(parametro)
